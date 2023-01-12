@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top text-white">
+    <nav className="navbar navbar-expand-lg sticky-top text-white" style={{height: "80px"}}>
       <div className="container ">
         <a className="navbar-brand" href="#">
           Antony Gakuru

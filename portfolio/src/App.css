@@ -17,16 +17,22 @@
 }
 
 .hero-container{
-  height: auto;
+  min-height: 100vh;
+  /* width: 100%; */
 }
 .hero-left{
   background-color: white;
-  height: 100vh
+  height: 100vh;
+  background-image: url("./assets/hero-images/left-laptop.png");
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-position-y: -80px;
+  /* background-position-x: -150px, -270px; */
+
 }
 .hero-right{
-  background-color: white;
-  /* box-shadow: 0 0 40px 40px white inset; */
-  height: 100vh;
+  background-color: white !important;
+  min-height: 100vh;
   /* position: relative;
   box-shadow: inset 3px -7px 79px 175px rgba(255,255,255,1); */
 }
