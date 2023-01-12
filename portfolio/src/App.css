@@ -1,41 +1,53 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  font-family: "Poppins" !important;
+}
+.navbar{
+  /* background-color: #6c12a7; */
+  background-color: white;
+  box-shadow: #6c12a7 0px 1px 4px;
+}
+/* .navbar-brand{
+  color: #fff;
+}
+.nav-item .nav-link{
+  color: #fff;
+} */
+.nav-link.active{
+  color: red !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+.hero-container{
+  height: auto;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.hero-left{
+  background-color: white;
+  height: 100vh
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-right{
+  background-color: white;
+  /* box-shadow: 0 0 40px 40px white inset; */
+  height: 100vh;
+  /* position: relative;
+  box-shadow: inset 3px -7px 79px 175px rgba(255,255,255,1); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hero-right img{
+  z-index: 1;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.hero-left{
 
-.card {
-  padding: 2em;
 }
-
-.read-the-docs {
-  color: #888;
+/* footer */
+footer.footer{
+  width: 100%;
+  height: 500px;
+  background-image: url("./assets/Wave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 999999;
 }
+/* end footer */
