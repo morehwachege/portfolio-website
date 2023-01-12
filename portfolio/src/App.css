@@ -13,28 +13,44 @@
   color: #fff;
 } */
 .nav-link.active{
-  color: red !important;
+  color: #6c12a7 !important;
+  border-bottom: 3px solid #6c12a7;
+}
+.nav-link{
+  font-size:18px;
+}
+.nav-link:hover{
+  color:#6c12a7;
+  border-bottom: 3px solid #6c12a7;
+  transition: .2s ease;
+}
+.navbar-brand{
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.navbar-brand .logo-span{
+  color: #6c12a7;
+  position: relative;
 }
 
 .hero-container{
-  min-height: 100vh;
-  /* width: 100%; */
+  height: auto;
+}
+.hero-container .row{
+  height: auto;
+}
+.laptop-div{
+  margin-bottom: -70px;
 }
 .hero-left{
   background-color: white;
-  height: 100vh;
-  background-image: url("./assets/hero-images/left-laptop.png");
-  /* width: 100%; */
-  background-repeat: no-repeat;
-  background-position-y: -80px;
-  /* background-position-x: -150px, -270px; */
+  height: 100%;
 
 }
 .hero-right{
   background-color: white !important;
   min-height: 100vh;
-  /* position: relative;
-  box-shadow: inset 3px -7px 79px 175px rgba(255,255,255,1); */
 }
 
 .hero-right img{
@@ -44,7 +60,16 @@
   display: none;
 }
 .hero-left{
-
+  height: 100vh;
+}
+.socials button{
+  background-color: transparent;
+  color:#6c12a7;
+  border: 2px solid #6c12a7;
+}
+.socials button:hover{
+  color: white;
+  background-color:#6c12a7;
 }
 /* footer */
 footer.footer{
@@ -57,3 +82,36 @@ footer.footer{
   z-index: 999999;
 }
 /* end footer */
+
+/* About */
+.container-about{
+  width: 100%;
+  height: 85vh;
+}
+.about-img{
+  width: 100%;
+  height: 90%;
+}
+.terminal{
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: #300a24;
+  color: white;
+}
+.frame{
+  width: 60%;
+  height: 80%;
+  border-radius: 50%;
+  /* background-color: blue; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+/* terminal top bar */
+.top-bar{
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+  font-size: 12px;
+}
+/* end About */

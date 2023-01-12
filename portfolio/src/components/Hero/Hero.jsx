@@ -7,8 +7,8 @@ function Hero() {
     alert("clicked");
   }
   return (
-    <div class="container-fluid bg-dark text-white hero-container">
-      <div class="row d-flex justify-content-center align-items-center">
+    <div class="container-fluid text-white hero-container">
+      <div class="row d-flex justify-content-center align-items-start">
         <LeftHero />
         <RightHero />
       </div>
