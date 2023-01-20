@@ -89,8 +89,8 @@ footer.footer{
   height: 85vh;
 }
 .about-img{
-  width: 100%;
-  height: 90%;
+  width: 60%;
+  height: 60%;
 }
 .terminal{
   width: 100%;
@@ -100,8 +100,8 @@ footer.footer{
   color: white;
 }
 .frame{
-  width: 60%;
-  height: 80%;
+  /* width: 100%;
+  height: 100%; */
   border-radius: 50%;
   /* background-color: blue; */
   background-repeat: no-repeat;
@@ -112,6 +112,49 @@ footer.footer{
 .top-bar{
   width: 100%;
   background-color: rgb(50, 50, 50);
-  font-size: 12px;
+  font-size: 14px;
+}
+.other-icons{
+  font-size: 15px;
+}
+.ubuntu-terminal{
+  background-color: rgb(85, 85, 85);
+  padding: 4px;
+  border-radius: 2px;
+}
+.cancel-circle{
+  background-color: #e3503c;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 50%;
+}
+.sudo-name{
+  color: lime
+}
+.terminal-words{
+  color: white
+}
+.actual-terminal p.terminal-words{
+  word-spacing: 2px;
+  word-wrap: break-word;
+}
+.actual-terminal{
+  font-size: 14px;
+}
+span.typewriter{
+  border-right: .55em solid white; /* The typwriter cursor */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .1em; */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .95s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
 /* end About */
