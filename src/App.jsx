@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About/About";
 function App() {
   const [count, setCount] = useState(0);
-
+  //add count
   return (
     <div className="App">
       <NavBar />
